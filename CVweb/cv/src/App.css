@@ -1,0 +1,275 @@
+
+  .main {
+  position: relative;
+  width: 90%;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid black;
+  background: #222353;
+  }
+  .lang,.other{
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid black;
+  box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+  }
+
+.Frameworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  height: 700px;
+  margin: 50px auto;
+  border: 1px solid black;
+  box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+}
+.vscode{
+  height: 2rem;
+ 
+}.Frameworks,.lang,.other{
+  background-color: white;
+}
+.words{
+  height: 2rem;
+
+}
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  
+ 
+}
+
+center h1{
+  color: #6db4f3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+ border-bottom: 2px solid cyan;
+
+}
+.Frameworks h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  
+}
+
+.about {
+  position: relative;
+  width: 90%;
+  height: 590px;
+  margin: 50px auto;
+  border: 1px solid rgb(249, 248, 248);
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+ 
+  font-size: 60px;
+  overflow: hidden; box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+}
+
+.about .lorem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 20px;
+  text-align: center;
+  color: rgb(109, 180, 243);
+}
+.white-text {
+  color: white;
+  z-index: 2;
+  position: relative;
+}.Mysvg{ position: relative;
+  z-index: 0;}
+  p{
+    
+    margin-top: -70px;
+    display: inline-block;
+  }
+.text {
+  font-size: 60px;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
+.about span {
+  color: rgb(148, 201, 247);
+}
+
+.about label {
+  color: rgb(30, 30, 30);
+  font-weight: 400;
+  margin: 60px;
+}
+
+.main h1 {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.main .right {
+  color: white;
+ 
+}
+.right{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+.right h2,.right p{
+  position: relative;
+  top: 160px;
+}
+.right h2 {
+  margin: 20px;
+  color: rgb(244, 137, 244);
+}
+
+.left {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.main .left {
+  position: absolute;
+  right: 100px;
+}
+.left img {
+  width: 130px; 
+  height: 286px; 
+  position: relative; 
+  z-index: 1;
+
+}
+.head,.left img{
+  bottom: 120px;;
+}
+.head{
+  position: relative;
+  left: 150px;
+  z-index: 1;
+}
+svg:not(.htmlsvg,.head){
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main img {
+  height: 160px;
+  margin-top: 1px;
+  margin-left: -100px;
+  border: 6px solid #6376d2;
+  border-radius: 15%;
+}
+.lang ul,
+.other ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.lang ul li,
+.other ul li {
+  display: flex;
+  align-items: center;
+}
+
+.lang ul li:before,
+.other ul li:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  
+}
+.needed{
+  height: 3em;
+}
+.other{
+  overflow: auto;
+}
+@media (max-width: 1221px) {
+  .about {
+    font-size: 50px;
+  }
+
+  .about .lorem {
+    margin: 15px;
+  }
+
+  .about label {
+    margin: 50px;
+  }
+
+  .main h1 {
+    font-size: 50px;
+  }
+
+  .right h2 {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 40px;
+  }
+
+  .about .lorem {
+    margin: 10px;
+  }
+
+  .about label {
+    margin: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    font-size: 30px;
+  }
+
+  .about .lorem {
+    margin: 5px;
+  }
+
+  .about label {
+    margin: 20px;
+  }
+
+  .main h1 {
+    font-size: 40px;
+  }
+
+  .right h2 {
+    margin: 5px;
+  }
+}
+
+
