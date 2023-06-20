@@ -74,6 +74,11 @@ center h1{
  align-items: center;
   font-size: 60px;
   overflow: hidden; box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+  background-image: url('./Mysvg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
   
 }
 
@@ -85,9 +90,21 @@ center h1{
   margin: 20px;
   text-align: center;
   color: rgb(109, 180, 243);
+ 
 }
-.Mysvg{ 
-  z-index: 0;}
+::-webkit-scrollbar {
+  width: 10px; 
+  background-color: #f5f5f5; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #319ad3; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5fd0f3; 
+}
+
   .Mysvg {
     position: absolute;
     bottom: 0;
@@ -98,7 +115,7 @@ center h1{
 .text {
   font-size: 60px;
   white-space: pre-wrap;
-  overflow-y: scroll;
+  
   color: hsl(28, 77%, 50%);
 }
 

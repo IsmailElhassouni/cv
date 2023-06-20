@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
 import './App.css';
 import Headersvg from './Headersvg';
-import Mysvg from './Mysvg';
+import Mysvg from './Mysvg.png';
 import Icons from './icons';
 import Html from './Html';
 import Css from './css';
@@ -15,6 +15,7 @@ import download from './download.jpg'
 import Ana from './Ana';
 import Footer from './Footer';
 import './words.css'
+
 function App() {
   
 
@@ -53,7 +54,7 @@ function App() {
        Beyond coding, I find fulfillment in cultivating green spaces, tending to plants,and going for regular runs.
     </span>
       </div>
-      { <Mysvg className="Mysvg"/> }
+     
     </div>
     <fieldset>
      <center> <h1>Skills</h1></center> 
