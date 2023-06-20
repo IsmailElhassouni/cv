@@ -16,6 +16,7 @@ import Ana from './Ana';
 import Footer from './Footer';
 import './words.css'
 import Project from './New Project.png'
+import certifa from './certifa.png';
 function App() {
   
 
@@ -95,6 +96,10 @@ function App() {
     </ul>
   </div>
     </fieldset>
+    <div className="certifc">
+      <h1>My certificates :</h1>
+      <ul><li><img src={certifa} alt="" /></li></ul>
+    </div>
     <Footer/>
     </>
   );

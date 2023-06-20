@@ -12,7 +12,29 @@
   border: 1px solid black;
   box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
   }
-
+  .certifc {
+    width: 100%;
+    max-width: 1142px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .certifc h1 {
+    font-size: 24px;
+  }
+  
+  .certifc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .certifc li img {
+    width: 100%;
+    height: auto;
+    max-width: 1142px;
+    max-height: 868px;
+  }
 .Frameworks {
   display: flex;
   justify-content: center;
