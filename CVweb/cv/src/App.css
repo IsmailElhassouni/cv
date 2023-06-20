@@ -194,7 +194,7 @@ svg:not(.htmlsvg,.head){
   height: 160px;
   margin-top: 1px;
   margin-left: -100px;
-  border: 6px solid #6376d2;
+  
   border-radius: 15%;
 }
 .lang ul,

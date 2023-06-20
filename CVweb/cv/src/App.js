@@ -15,7 +15,7 @@ import download from './download.jpg'
 import Ana from './Ana';
 import Footer from './Footer';
 import './words.css'
-
+import Project from './New Project.png'
 function App() {
   
 
@@ -38,7 +38,7 @@ function App() {
       <div className="left">
         <div>
        <Ana className='head'/>
-        <img src={download} alt="img" /></div>
+        <img src={Project} alt="img" /></div>
       </div>
       <svg  viewBox="0 0 100 100" preserveAspectRatio="none">
         <line x1="0" y1="0" x2="100" y2="100" stroke="cyan" strokeWidth="2.5" />
