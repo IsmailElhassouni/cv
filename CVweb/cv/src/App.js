@@ -14,8 +14,14 @@ import Mongodb from './mongodb-ar21';
 import download from './download.jpg'
 import Ana from './Ana';
 import Footer from './Footer';
-
+import './words.css'
 function App() {
+  
+
+
+
+
+
   return (
     <>
     
@@ -42,12 +48,10 @@ function App() {
     <div className="about">
       <div className="lorem">
         <label htmlFor="" className="title">About Me :</label>
-        <p>
-        <span className="text">
-      Beyond coding, I find fulfillment in cultivating green spaces, tending to plants, and going for regular runs.
-      <span className="white-text" style={{color:'white'}}>These hobbies bring balance to my life, allowing me to create harmonious environments, find tranquility in nature,
-      and challenge myself physically and mentally.</span>
-    </span></p>
+        
+        <span className="text white-text1618">
+       Beyond coding, I find fulfillment in cultivating green spaces, tending to plants,and going for regular runs.
+    </span>
       </div>
       { <Mysvg className="Mysvg"/> }
     </div>

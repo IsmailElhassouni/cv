@@ -1,8 +1,5 @@
-import * as React from "react"
-
-function Mysvg(props) {
-  return (
-    <svg
+ function Mysvg(props){
+   return( <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2400 800"
       opacity={0.9}
@@ -14,7 +11,7 @@ function Mysvg(props) {
           <stop stopColor="hsl(208, 74%, 93%)" offset="100%" />
         </linearGradient>
       </defs>
-      <g fill="url(#a)" transform="translate(0 -155.24)">
+      <g fill="url(#a)" transform="translate(0 -170.50)">
         <path
           d="M0 423.273q600 295.631 800 32.867 600 189.033 800-45.66 600 334.345 800 11.854V950H0V430.677z"
           opacity={0.05}
@@ -24,7 +21,7 @@ function Mysvg(props) {
           opacity={1}
         />
       </g>
-    </svg>)
-  }
-
+    </svg>
+ ) }
 export default Mysvg
+

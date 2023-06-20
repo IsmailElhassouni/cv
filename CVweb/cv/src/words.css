@@ -1,0 +1,31 @@
+
+    @media screen and (max-width: 1618px) {
+    .white-text1618 {
+      color: hsl(28, 77%, 50%);
+      z-index: 2;
+      position: relative;
+    }
+  }
+  
+   
+  @media screen and (max-width: 1468px) {
+    .about {
+      height: 500px;
+    }
+  }
+  
+  @media screen and (min-width: 1469px) {
+    .about {
+      height: 590px;
+    }
+  }
+  @media screen and (min-width: 1232px) {
+    .about {
+      height: 499px;
+    }
+  }
+  @media screen and (min-width: 1193px) {
+    .about {
+        height: 485px;
+    }
+  }

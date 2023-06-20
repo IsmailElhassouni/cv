@@ -1,5 +1,4 @@
-
-  .main {
+.main {
   position: relative;
   width: 90%;
   height: 500px;
@@ -72,9 +71,10 @@ center h1{
   background: #ffffff;
   display: flex;
   justify-content: center;
- 
+ align-items: center;
   font-size: 60px;
   overflow: hidden; box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+  
 }
 
 .about .lorem {
@@ -86,25 +86,22 @@ center h1{
   text-align: center;
   color: rgb(109, 180, 243);
 }
-.white-text {
-  color: white;
-  z-index: 2;
-  position: relative;
-}.Mysvg{ position: relative;
+.Mysvg{ 
   z-index: 0;}
-  p{
-    
-    margin-top: -70px;
-    display: inline-block;
+  .Mysvg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
   }
 .text {
   font-size: 60px;
   white-space: pre-wrap;
   overflow-y: scroll;
+  color: hsl(28, 77%, 50%);
 }
-.about span {
-  color: rgb(148, 201, 247);
-}
+
 
 .about label {
   color: rgb(30, 30, 30);
@@ -214,62 +211,3 @@ svg:not(.htmlsvg,.head){
 .other{
   overflow: auto;
 }
-@media (max-width: 1221px) {
-  .about {
-    font-size: 50px;
-  }
-
-  .about .lorem {
-    margin: 15px;
-  }
-
-  .about label {
-    margin: 50px;
-  }
-
-  .main h1 {
-    font-size: 50px;
-  }
-
-  .right h2 {
-    margin: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .about {
-    font-size: 40px;
-  }
-
-  .about .lorem {
-    margin: 10px;
-  }
-
-  .about label {
-    margin: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .about {
-    font-size: 30px;
-  }
-
-  .about .lorem {
-    margin: 5px;
-  }
-
-  .about label {
-    margin: 20px;
-  }
-
-  .main h1 {
-    font-size: 40px;
-  }
-
-  .right h2 {
-    margin: 5px;
-  }
-}
-
-
