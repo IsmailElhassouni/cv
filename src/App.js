@@ -1,8 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-//"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
+
+
 import './App.css';
 import Headersvg from './Headersvg';
-import Mysvg from './Mysvg.png';
+
 import Icons from './icons';
 import Html from './Html';
 import Css from './css';
@@ -11,19 +11,14 @@ import Php from './Php';
 import Python from './Python';
 import Git from './Git';
 import Mongodb from './mongodb-ar21';
-import download from './download.jpg'
-import Ana from './Ana';
+
 import Footer from './Footer';
-import './words.css'
-import Project from './New Project.png'
-import certifa from './certifa.png';
+import './words.css';
+import Certificates from './slide/Slide';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
 function App() {
-  
-
-
-
-
-
 
   return (
     <>
@@ -39,17 +34,16 @@ function App() {
       </div>
       <div className="left">
         <div>
-       <Ana className='head'/>
-        <img src={Project} alt="img" /></div>
+       
+        </div>
       </div>
-      <div className="foot">
-  <a href="./CV_TEMPLATE_0004.pdf" download>Download My CV</a>
-</div>
+
+  <span className='lines'>
       <svg  viewBox="0 0 100 100" preserveAspectRatio="none">
         <line x1="0" y1="0" x2="100" y2="100" stroke="white" strokeWidth="2" />
         <line x1="100" y1="0" x2="0" y2="100" stroke="white" strokeWidth="2" />
       </svg>
-      
+      </span>    
     </div>
 
     <div className="about">
@@ -100,27 +94,31 @@ function App() {
           <li><span><img className='needed'src="https://www.rabbitmq.com/img/rabbitmq_logo_strap.png" alt="" /></span></li>
     </ul>
   </div>
-  <div className="work-experience">
-  <h2 className="title">Experience : </h2>
-  <ul>
-    <li className="experience-item">
-      <div className="logo-container">
-        <img src="https://careers.ocpgroup.ma/themes/custom/ocp/logo.png" alt="Company Logo" className="logo" />
-      </div>
-      <div className="content">
-        <p>
-          I completed an internship at OCP company where I developed a web application for "internship management" 02/01/2023 =&gt;02/28/2023.
-        </p>
-      </div>
-    </li>
-  </ul>
+  <div className='work-experience'>
+  
+    <h2 className="title">Experience:</h2>
+    <div className="container">
+    <ul className="list-unstyled">
+      <li className="experience-item row">
+        <div className="logo-container col-3">
+          <img src="https://careers.ocpgroup.ma/themes/custom/ocp/logo.png" alt="Company ocp Logo" className="logo img-fluid" />
+        </div>
+        <div className="content col">
+          <p>
+            I completed an internship at OCP company where I developed a web application for "internship management" 02/01/2023 =&gt;02/28/2023.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>
 
+
     </fieldset>
-    <div className="certifc">
-      <h1>My certificates :</h1>
-      <ul><li><img src={certifa} alt="" /></li></ul>
-    </div>
+    
+      
+      <Certificates />
+    
    
 
     <Footer/>

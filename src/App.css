@@ -15,29 +15,19 @@
   box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
   }
   .certifc {
-    width: 100%;
-    max-width: 1142px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 50px auto;
+  border: 1px solid black;
+  background: #ffffff;
+  box-shadow: 2px 1px 20px 0px rgb(59, 135, 233);
+  width: 90%;
+  
   }
   
-  .certifc h1 {
-    font-size: 24px;
-  }
+
   
-  .certifc ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .certifc li img {
-    width: 100%;
-    height: auto;
-    max-width: 1142px;
-    max-height: 868px;
-  }
-.Frameworks {
+  .lines{ 
+    z-index: -1;}
+  .Frameworks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +85,7 @@ center h1{
   background: #ffffff;
   display: flex;
   justify-content: center;
- align-items: center;
+  align-items: center;
   font-size: 60px;
   overflow: hidden; box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
   background-image: url('./Mysvg.png');
@@ -259,6 +249,7 @@ svg:not(.htmlsvg,.head){
   margin: 50px auto;
   border: 1px solid black;
   box-shadow: 2px 1px 20px 0px rgb(59, 149, 238);
+  width: 90%;
 }
 
 .logo-container {
@@ -277,4 +268,3 @@ svg:not(.htmlsvg,.head){
   display: flex;
   align-items: center;
 }
-
