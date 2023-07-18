@@ -1,0 +1,3 @@
+[submodule "CVweb/cv/CVweb/cv"]
+	path = CVweb/cv/CVweb/cv
+	url = https://github.com/IsmailElhassouni/cv.git
